@@ -22,38 +22,58 @@ _You can clone it into an existing project to which you just want to add docs, i
 
 ### Change necessary values:
 
-Open `/conf.py` and edit:
+Run the `bin/configure.sh` script like so:
+
+```bash
+bin/configure.sh "My project name" "Author Name" some-project-slug
+```
+
+There will be some other values that might do with some changing (like a one liner description for the LaTeX file, for example), but this is all you really need.
+
+The third argument is used in some file names and is optional, defaulting to a slugified version of the first argument.
+
+Alternatively, if you prefer the manual route, open `/conf.py` and edit:
 
  - author
  - copyright
  - project
  - other values you want to change
  
-_Todo: make a script to automate this from the command line_
-
 ### Start writing
 
 The source code of the documentation are `.rst` files in the root folder. Edit those to write your docs.
 
 To translate, generate `.po` files with:
 
+```bash
+bin/update.sh xx yy zz ...
 ```
+
+The `update.sh` utility script is just short for:
+
+```bash
 make gettext
 sphinx-intl update -p _build/locale -l xx
 ```
 
-_`xx` above refers to the language you need to build `.po` files for. I.e., to generate for English and Croatian, use `sphinx-intl update -p _build/locale -l en -l hr`. You can use as many languages as you want here._
+_`xx`, `yy`, `zz`... above refers to the language you need to build `.po` files for. I.e., to generate for English and Croatian, use `sphinx-intl update -p _build/locale -l en -l hr`. You can use as many languages as you want here._
 
 To build the docs:
 
 ```
+bin/build.sh xx yy zz
+```
+
+Where `xx`, `yy`, `zz` ... is the language you want to build. The `build.sh` utility script is just short for:
+
+```bash
 sphinx-intl build
 sphinx-build -b html -d _build/doctrees -D language='xx' -c locale/xx/ . _build/html/xx/
 ```
 
 Inspect your generated docs by opening the `_build/html/xx/index.html` file.
 
-Again, `xx` is the language you want to build. These need to be input one by one.
+Again, `xx` is the language you want to build. When not using the utility script, you need to execute the build commands one by one - one language at a time, there is no support for several at once.
 
 ### Hosting on RTD
 
