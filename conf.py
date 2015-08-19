@@ -305,3 +305,5 @@ lexers["php-annotations"] = PhpLexer(startinline=True, linenos=1)
 primary_domain = "php"
 
 
+def append(path):
+    sys.path.append(path)

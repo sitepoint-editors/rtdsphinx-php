@@ -9,3 +9,5 @@ from conf import *
 
 language = 'en'
 html_static_path = ['../../_static']
+
+append(PROJECT_PATH)
