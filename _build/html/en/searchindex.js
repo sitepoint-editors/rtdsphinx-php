@@ -1,1 +1,1 @@
-Search.setIndex({envversion:46,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{content:0,index:0,modul:0,page:0,search:0},titles:["Welcome to Transl2&#8217;s documentation!"],titleterms:{document:0,indic:0,tabl:0,transl2:0,welcom:0}})
+Search.setIndex({envversion:46,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{"tra\u017eilica":0,abecedni:0,content:[],index:[],modul:[],modula:0,page:[],popi:0,sadrzaj:0,search:[]},titles:["Welcome to Transl2&#8217;s documentation!"],titleterms:{document:0,indic:0,tabl:0,transl2:0,welcom:0}})
