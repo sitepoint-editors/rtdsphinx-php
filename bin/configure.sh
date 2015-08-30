@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="conf_tpl.py"
+FILE="conf.py"
 
 echo "------------------------"
 echo ""
