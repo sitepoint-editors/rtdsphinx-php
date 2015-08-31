@@ -5275,3 +5275,14 @@ span[id*='MathJax-Span'] {
 
 /* Custom styles */
 
+.rst-content dl dd {
+    margin: 24px 24px 24px 24px;
+}
+
+.rst-content dl>dt {
+    width: 100%;
+}
+
+.rst-content dl:not(.docutils) {
+    margin-top: 36px;
+}
