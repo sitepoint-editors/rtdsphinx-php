@@ -304,3 +304,9 @@ lexers["php"] = PhpLexer(startinline=True, linenos=1)
 lexers["php-annotations"] = PhpLexer(startinline=True, linenos=1)
 primary_domain = "php"
 highlight_language = "php"
+
+rst_prolog = """
+.. role:: hidden
+   :class: hidden
+"""
+

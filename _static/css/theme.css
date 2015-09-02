@@ -5286,3 +5286,27 @@ span[id*='MathJax-Span'] {
 .rst-content dl:not(.docutils) {
     margin-top: 36px;
 }
+
+/* The below declarations are for use with a custom role that sets the class of any inline element as "hidden". Primarily intended for use with headings, so that they appear in the toctree, but not in the body. Very useful for API docs. Usage of the role:
+
+ At the top of an rst file, define the role like so:
+
+.. role:: hidden
+   :class: hidden
+
+ Then use it like so:
+
+ :hidden:`setToken`
+ """"""""""""""""""
+
+ This creates a `setToken` heading, and makes it appear in the TOC but not in the body of the rendered text.
+
+ */
+
+.rst-content .hidden {
+    display: none;
+}
+
+nav .hidden {
+    display: unset;
+}
