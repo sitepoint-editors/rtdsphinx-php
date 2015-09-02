@@ -5307,6 +5307,6 @@ span[id*='MathJax-Span'] {
     display: none;
 }
 
-nav .hidden {
+nav .hidden, div.section#maintoc .hidden {
     display: unset;
 }

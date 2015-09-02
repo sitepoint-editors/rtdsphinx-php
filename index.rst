@@ -6,6 +6,9 @@
 Welcome to SitePoint's RTDSphinx-l10n documentation!
 ====================================================
 
+:hidden:`maintoc`
+~~~~~~~~~~~~~~~~~
+
 Contents:
 
 .. toctree::
