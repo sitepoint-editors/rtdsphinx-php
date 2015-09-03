@@ -284,17 +284,12 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 locale_dirs = ['locale/']
 
-
-
-# Set up ReadTheDocs theme
+# Set up ReadTheDocs theme with custom style overrides
 
 import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-
-
-
+html_style = "css/my_theme.css"
 
 # Set up PHP syntax highlights
 

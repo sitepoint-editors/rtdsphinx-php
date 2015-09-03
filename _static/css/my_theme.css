@@ -1,0 +1,23 @@
+﻿@import url('theme.css');
+/* Custom styles */
+
+.rst-content dl dd {
+    margin: 24px 24px 24px 24px;
+}
+
+.rst-content dl>dt {
+    width: 100%;
+}
+
+.rst-content dl:not(.docutils) {
+    margin-top: 36px;
+}
+
+.rst-content .hidden {
+    display: none !important;
+}
+
+nav .hidden, div.section#maintoc .hidden {
+    display: unset !important;
+    visibility: visible !important;
+}

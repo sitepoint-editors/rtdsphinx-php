@@ -16,31 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:11
-msgid "Welcome to SitePoint's RTDSphinx-l10n documentation!"
+#: ../../overview.rst:11
+msgid "Overview"
 msgstr ""
 
-#: ../../index.rst:14
-msgid ":hidden:`maintoc`"
+#: ../../overview.rst:14
+msgid "My Class"
 msgstr ""
 
-#: ../../index.rst:16
-msgid "Contents:"
+#: ../../overview.rst:16
+msgid "Description of the library or whatnot goes here."
 msgstr ""
 
-#: ../../index.rst:27
-msgid "Indices and tables"
+#: ../../overview.rst:18
+msgid "These paragraphs are just regular prose, like what you'd see in any API documentation."
 msgstr ""
 
-#: ../../index.rst:29
-msgid ":ref:`genindex`"
+#: ../../overview.rst:21
+msgid "Quickstart"
 msgstr ""
 
-#: ../../index.rst:30
-msgid ":ref:`modindex`"
+#: ../../overview.rst:23
+msgid "Install via Composer::"
 msgstr ""
 
-#: ../../index.rst:31
-msgid ":ref:`search`"
+#: ../../overview.rst:27
+msgid "Some other instructions go here::"
 msgstr ""
 

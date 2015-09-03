@@ -11,26 +11,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:7
-msgid "Welcome to Transl2's documentation!"
-msgstr ""
-
-#: ../../index.rst:9
+#: ../../index.rst:16
 msgid "Contents:"
 msgstr ""
 
-#: ../../index.rst:17
+#: ../../index.rst:27
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../index.rst:19
+#: ../../index.rst:29
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../index.rst:20
+#: ../../index.rst:30
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../index.rst:21
+#: ../../index.rst:31
 msgid ":ref:`search`"
 msgstr ""
+
+#: ../../index.rst:11
+msgid "Welcome to SitePoint's RTDSphinx-l10n documentation!"
+msgstr ""
+
+#: ../../index.rst:14
+msgid ":hidden:`maintoc`"
+msgstr ""
+
+#~ msgid "Welcome to Transl2's documentation!"
+#~ msgstr ""
