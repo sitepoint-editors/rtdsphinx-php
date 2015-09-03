@@ -293,7 +293,7 @@ import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # Override default css to get a larger width for local build
-html_style = "css/my_theme.css"
+html_style = "css/local_build.css"
 
 if on_rtd:
     # Override default css to get a larger width for ReadTheDoc build
