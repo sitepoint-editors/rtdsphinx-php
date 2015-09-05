@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../../01-example.rst:17
 msgid "The awesome class does awesome things. Instantiate like so::"
-msgstr ""
+msgstr "Ova super klasa radi super stvari. Instancira se ovako::"
 
 #: ../../01-example.rst:23
 msgid ":hidden:`someStaticMethod`"

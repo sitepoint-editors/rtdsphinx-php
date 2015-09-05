@@ -21,3 +21,7 @@ nav .hidden, div.section#maintoc .hidden {
     display: unset !important;
     visibility: visible !important;
 }
+
+div.section#maintoc h2 {
+    display: none !important;
+}
