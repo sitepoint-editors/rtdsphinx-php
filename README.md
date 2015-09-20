@@ -5,6 +5,8 @@ Using Sphinx and ReadTheDocs to document PHP projects is less than straightforwa
 ## Usage:
 
 Follow [this short tutorial](http://www.sitepoint.com/fast-multi-language-docs-with-sitepoints-rtdsphinx-php/).
+
+For a full reference of available PHPDomain directives, see [here](https://pythonhosted.org/sphinxcontrib-phpdomain/reference.html).
  
 ## License
 
